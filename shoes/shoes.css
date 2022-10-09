@@ -1,0 +1,143 @@
+.body{
+  margin: 0px;
+  font-family: Roboto, arial;
+}
+.home{
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+.first-section{
+  text-align: center;
+  color: black;
+
+ 
+}
+.second-section{
+
+
+}
+.shoeslist{
+  margin-top: 25px;
+  display: flex;
+  list-style-type: none;
+  
+}
+.shoeslist li a{
+  margin: 15px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  font-weight: 1000px;
+
+}
+.shoeslist li a:active{
+  color: red;
+  text-decoration: underline;
+}
+
+.third-section{
+  margin-left: 20px;
+  
+ 
+
+}
+.searchicon{
+  width: 20px;
+  margin-top: 25px;
+  margin-right: 8px;
+ 
+}
+
+.pagediv{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 550px;
+   
+  background-image: url(back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+
+ .shoimage{
+  height:480px;
+  width: 320px;
+  
+  position: absolute;
+  top: 70px;
+  left: 600px;
+} 
+.hor{
+  width: 420px;
+  height:480px;
+}
+.shoimage1{
+  height:400px;
+  width: 280px;
+  
+  position: absolute;
+  top: 170px;
+  left: 200px;
+  color: white;
+  font-size: 15px;
+} 
+.read{
+  height: 40px;
+  width: 160px;
+  border: none;
+  background-color: gray;
+  border-radius: 6px;
+  margin-top: 30px;
+  color: white;
+  font-size: 15px;
+}
+.black{
+  width: 100%;
+  height: 700px;
+  background-color: rgb(49, 47, 47);
+  display: flex;
+  color: rgb(156, 153, 153);
+  
+  
+}
+.aclass{
+  width: 300px;
+  height: 200px;
+ top: 720px;
+ left: 200px;
+ position: absolute;
+
+}
+.bclass{
+  width: 300px;
+  height: 200px;
+ top: 720px;
+ left: 600px;
+ position: absolute;
+ 
+
+}
+.cclass{
+  width: 300px;
+  height: 210px;
+ top: 1000px;
+ left: 200px;
+ position: absolute;
+ 
+
+}
+.dclass{
+  width: 300px;
+  height: 200px;
+ top: 1000px;
+ left: 600px;
+ position: absolute;
+ 
+
+}
