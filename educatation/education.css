@@ -1,0 +1,178 @@
+.body{
+  margin: 0px;
+  font-family: Roboto, arial;
+}
+.home{
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 200px 1fr 1fr;
+  border-bottom: 1px solid black;
+
+}
+.first-section{
+  padding-left: 40px;
+  color: black;
+  
+
+ 
+}
+
+.navlist{
+  margin-top: 25px;
+  display: flex;
+  list-style-type: none;
+  
+}
+.navlist li a{
+  margin: 15px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  font-weight: 1000px;
+
+}
+.navlist li a:active{
+  color: red;
+  text-decoration: underline;
+}
+
+.third-section{
+  margin-left: 20px;
+  margin-top: 15px;
+ 
+ padding-left: 200px;
+
+}
+.signup{
+  background-color: black;
+  color: white;
+  height: 40px;
+  width: 120px;
+  border-radius: 20px;
+}
+.left-div{
+  margin-top: 70px;
+  width: 100%;
+  height: 310px;
+  width: 45%;
+  float: left;
+  
+}
+.right-div{
+  margin-top: 70px;
+  width: 45%;
+  height:450px;
+  float: right;
+  background-image: url("images/Hero\ Image.jpg");
+  background-position: fixed;
+  background-repeat: no-repeat;
+}
+.first-heading{
+  margin-left: 50px;
+  word-spacing: 6px;
+  font-size: 70px;
+  font-weight: lighter;
+}
+.get-button{
+  height: 50px;
+  width: 150px;
+  color: white;
+  font-weight: 600;
+  border-radius: 25px;
+  background-color: rgb(9, 9, 193);
+  border: none;
+
+  margin-left:50px ;
+}
+.footerdiv{
+  height: 280px;
+  width: 67.5%;
+  float: right;
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+}
+.child-main{
+  border: 1px solid black;
+}
+.butoom-heading{
+  
+  font-weight: lighter;
+  margin-left: 25px;
+  line-height: 25px;
+  word-spacing: 4px;
+  margin-top: 40px;
+}
+.heading-3{
+  margin-left:25px ;
+  margin-top: 50px;
+  font-size: 12px;
+}
+.starlogo{
+  margin-left: 25px;
+  margin-top: 25px;
+}
+.last-span{
+  font-size:70px ;
+  margin-left:25px; 
+  margin-right:5px;
+  margin-bottom: 30px;
+  
+}
+
+.last-div{
+  height: 280px;
+  width: 32.5%;
+  float: left;
+  display: flex;
+}
+.logo-list{
+  display: flex;
+  width: 100%;
+  height: 180px;
+  
+}
+.top-logo{
+  height: 60px;
+  margin-top: -90px;
+  margin-left: 380px;
+}
+.middle-logo{
+  margin-left: -260px;
+  margin-top: -70px;
+  height: 190px;
+  width: 190px;
+
+}
+.bottum-logo{
+  height: 60px;
+  margin-left: -260px;
+  margin-top: 80px;
+}
+.img-list{
+  height: 110px;
+  width: 700px;
+  margin-top: 170px;
+  margin-left: -260px;
+  display: flex;
+
+}
+.round-img{
+  height: 60px;
+  margin: -5px;
+  border: 1px solid white;
+}
+.span-num{
+  font-size: 18px;
+  font-weight: 800;
+  margin-top: 70px;
+  margin-left: -200px;
+}
+.last-p{
+  color: rgb(101, 101, 101);
+  font-weight: 600;
+  margin-top:70px ;
+  margin-left: 5px;
+}
