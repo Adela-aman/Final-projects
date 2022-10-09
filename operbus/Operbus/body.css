@@ -1,0 +1,89 @@
+body{
+  background-color: #E5E5E5;
+  overflow-x: hidden;
+  font-family: Roboto, arial;
+  
+    position: relative;
+    
+   
+    width: 1440px;
+  
+    height: 2000px;
+  }
+
+.text1{
+  
+  font-size: 40px;
+  font-family: bold;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #192d45;
+  margin-top: 100px;
+}
+.parent{
+  grid-template-columns: 2fr 1fr;
+  display: grid;
+  margin-top: 70px;
+  
+}
+.child1{
+  width: 500px;
+  height: 500px;
+  margin-left: 30px;
+
+}
+.child2{
+  
+  width: 650px;
+  height: 500px;
+  margin-left: -380px;
+}
+.parent2{
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  display: grid;
+  grid-gap: 30px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+
+  
+  
+}
+.child3{
+
+  width: 400px;
+  height: 200px;
+  
+  
+}
+
+.container{
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: grid;
+  grid-gap: 100px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: 80px;
+  
+  
+}
+.div1{
+  width: 250px;
+  height: 180px;
+  
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 3px 6px gray;
+ 
+  
+}
+.image1{
+  margin-left: 85px;
+  margin-top: 20px;
+
+
+}
+.logotext{
+  text-align: center;
+  font-weight: 600;
+  color: #1C59A2;
+}

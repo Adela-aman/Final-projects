@@ -1,0 +1,84 @@
+.flex-container{
+  right: 0px;
+  left: 0px;
+  height: 300px;
+  background-color: #1C59A2;
+  display: flex;
+ 
+  
+  position: absolute;
+  
+  
+  bottom: 0px;
+
+}
+
+.operbus1{
+  margin-left: 80px;
+  color: #1C59A2;
+  background-color: white;
+  font-weight: 400px;
+  height: 50px;
+  width: 200px;
+  border: 1px solid  #1C59A2;
+  font-size: 35px;
+  border-radius: 4px;
+  letter-spacing: 5px;
+  margin-top: 20px;
+
+  
+  font-family: Roboto, arial;
+}
+
+
+.footerdiv1{ 
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  background-color: #1C59A2;
+  
+  
+
+}
+.footerdiv2{ 
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: #1C59A2;
+  left: 440px;
+  
+}
+.footerdiv3{ 
+  position: absolute;
+  width: 600px;
+  height: 240px;
+  background-color:  #1C59A2;
+  right: 100px;
+  top: 30px;
+  
+  /* padding-top: 60px; */
+}
+.list{
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 30px;
+  color: white;
+  line-height: 30px;
+  padding-top: 0px;
+}
+.list2{
+  list-style-type: none;
+  display: block;
+  color: white;
+  padding-left: 0px;
+  padding-top: 65px;
+}
+.footerbutton{
+  height: 35px;
+  width:450px ;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  padding-left: 50px;
+  font-size: 15px;
+}

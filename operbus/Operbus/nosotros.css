@@ -1,0 +1,128 @@
+.netpar{
+  position: absolute;
+z-index: 1;
+top: 100px;
+left: 80px;
+color: white;
+font-size: 50px;
+font-weight:bold ;
+}
+.demo{
+  position: absolute;
+  
+  width: 340px;
+  height: 400px;
+  font-size: 20px;
+  left: 100px;
+  top: 350px;
+  font-family: Roboto, arial;
+}
+.not-main{
+  background-color: white;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+ height: 400px;
+  left: 550px;
+  top:380px ;
+  gap: 30px;
+  font-family: Roboto,arial;
+  color: rgb(27, 25, 25);
+}
+.not-a{
+
+
+  display: flex;
+  flex-direction: row;
+  order: 0;
+  flex: none;
+  height: 170px;
+  width: 310px;
+  gap: 30px;
+  
+}
+.not-b{
+  
+  display: flex;
+  flex-direction: row;
+  order: 1;
+  flex: none;
+  height: 170px;
+  width: 310px;
+  gap: 30px;
+  
+}
+.not1{
+ 
+  flex: none;
+  order: 0;
+  height: 170px;
+  width: 300px;
+  padding-left: 15px;
+  box-shadow: 0px 2px 2px  gray;
+}
+.not2{
+
+flex: none;
+order: 1;
+height: 170px;
+
+width: 300px;
+  padding-left: 15px;
+  box-shadow: 0px 2px 2px  gray;
+}
+.not3{
+
+flex: none;
+order: 0;
+height: 170px;
+width: 300px;
+  padding-left: 15px;
+  box-shadow: 0px 2px 2px  gray;
+}
+.not4{
+  
+ flex: none;
+  order: 1;
+  height: 170px;
+
+width: 300px;
+  padding-left: 15px;
+  box-shadow: 0px 2px 2px  gray;
+}
+.solucion{
+  display: flex;
+  flex-direction: row;
+  order: 0;
+  flex: none;
+  /* width: 1000px; */
+  height: 350px;
+  gap: 50px;
+  margin-top: 650px;
+  margin-left: 0px;
+  
+}
+.sol{
+  width: 500px;
+  height: 500px;
+ 
+  font-size: 18px;
+
+}
+.net-box{
+  
+  height: 80px;
+  margin-top: 250px;
+  
+  margin-left: 300px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px ;
+ gap: 200px;
+}
+.net-button{
+  height: 100px;
+  font-weight: bold;
+  
+  
+}

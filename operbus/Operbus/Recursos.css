@@ -1,0 +1,100 @@
+.body{
+  position: relative;
+  
+ 
+  width: 1440px;
+
+  height: 2000px;
+}
+.resbody{
+  background-color: white;
+}
+.Recursos1{
+  height: 250px;
+  width: 100%;
+
+  margin-left: 2px;
+}
+.resoursepar{
+  position: absolute;
+  z-index: 1;
+top: 190px;
+
+
+left: 50px;
+color: white;
+font-size: 40px;
+font-weight:bold ;
+
+
+  
+}
+.resimage{
+  position: absolute;
+  right: 0px;
+  top: 50px;
+  left: 0px;
+  z-index: 1;
+}
+.tem{
+  margin-left: 300px;
+  margin-top: 130px;
+  
+}
+
+
+ /* main-body design */
+.main-box{
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  top: 450px;
+  position: absolute;
+  left: 300px;
+  gap: 50px;
+  background-color: white;
+  
+
+}
+.first-box{
+  display: flex;
+  flex-direction: row;
+  order: 0;
+  flex: none;
+  width: 900px;
+  height: 190px;
+  box-shadow: 0px 1px 1px gray;
+  
+}
+.second-box{
+  display: flex;
+  flex-direction: row;
+  order: 1;
+  flex: none;
+  width: 900px;
+  height: 190px;
+  box-shadow: 0px 1px 1px gray;
+}
+.third-box{
+  display: flex;
+  flex-direction: row;
+  order: 2;
+flex: none;
+width: 900px;
+height: 190px;
+box-shadow: 0px 1px 1px gray;
+
+}
+.firsttext{
+  margin-left: 20px;
+  
+}
+.yearbutton{
+  background-color: rgb(53, 50, 50);
+  color: white;
+  height: 30px;
+  width: 70px;
+  border-radius: 20px;
+  border: none;
+
+}

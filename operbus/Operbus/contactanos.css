@@ -1,0 +1,34 @@
+.contactdiv{
+  margin-left: 300px;
+  margin-top: 80px;
+  background-color:white;
+  width: 700px;
+  height: 200px;
+  
+}
+.form1{
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  background-color: white;
+  width: 650px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px 1px gray;
+  font-size: 20px;
+}
+.enviar{
+  width: 170px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  background-color:#1C59A2;
+  color: white;
+  font-size: 20px;
+
+}
+.endiv{
+  
+  margin-top: 120px;
+  margin-left: 550px;
+}

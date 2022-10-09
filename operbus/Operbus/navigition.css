@@ -1,0 +1,78 @@
+.h-div{
+    width: 100%;
+   height: 55px;
+   grid-template-columns: 250px 1fr 250px;
+   display: grid;
+  background-color: #1C59A2;
+   position: fixed;
+   top: 0;
+   z-index: 10;
+
+}
+.first-section{
+
+    display: inline;
+}
+.operbus{
+    color: #1C59A2;
+    background-color: white;
+    font-weight: 400px;
+    height: 35px;
+    width: 100px;
+    border: 1px solid  #1C59A2;
+    font-size: 15px;
+    border-radius: 4px;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-left: 20px;
+    font-family: Roboto, arial;
+    
+    
+}
+.blue{
+    background-color:#1C59A2; 
+    color: white;
+    letter-spacing: 5px; 
+    padding-right: 8px;
+    height: 80px;
+     width: 120px;
+     padding-right: 5px;
+     padding-top: 5px;
+     padding-bottom: 2px;
+     font-family: Roboto, arial;
+}
+.middle-section{
+    display: inline;
+   
+}   
+
+.navlist{
+    list-style-type: none;
+    margin-top: 25px;
+    display: flex;
+   
+}
+
+.navlist li a{
+    margin: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 1000px;
+}
+
+.last-section{
+  
+    display: inline;
+    margin-right: 50px;
+}
+.image50{
+    height: 80px;
+    width: 150px;
+   
+}
+
+
+    
+
